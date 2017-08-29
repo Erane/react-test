@@ -1,0 +1,36 @@
+.leftNav{
+  width: 150px;
+  min-width: 150px;
+  .leftNav-con{
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+  }
+  li{
+    cursor: pointer;
+    overflow: hidden;
+    max-height: 41px;
+    transition: all 1.6s;
+    &.active{
+      max-height: 800px;
+    }
+    &:first-of-type{
+      span{
+        background: #D6E9C6;
+        color: blue;
+      }
+    }
+    &:not(:last-of-type){
+      border-bottom: 1px solid #ddd;
+    }
+    span{
+      padding: 10px ;
+      display: block;
+      background: #D3D3D3;
+      color: #555555;
+    }
+    .items{
+      background: #fff;
+    }
+  }
+
+}

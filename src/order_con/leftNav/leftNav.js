@@ -1,0 +1,92 @@
+import React,{Component} from 'react';
+import './leftNav.scss';
+export default class leftNav extends Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            lists:[
+                {
+                    title:'XXX网店',
+                    items:[
+
+                    ]
+                },
+                {
+                    title:'基础',
+                    items:[
+                        'item1',
+                        'item2',
+                    ]
+                },
+                {
+                    title:'公共页面',
+                    items:[
+                        'item1',
+                        'item2',
+                    ]
+                },
+                {
+                    title:'首页',
+                    items:[
+                        'item1',
+                        'item2',
+                    ]
+                },
+                {
+                    title:'分类页面',
+                    items:[
+                        'item1',
+                        'item2',
+                    ]
+                },
+                {
+                    title:'产品页面',
+                    items:[
+                        'item1',
+                        'item2',
+                    ]
+                },
+                {
+                    title:'购物车页面',
+                    items:[
+                        'item1',
+                        'item2',
+                    ]
+                },
+                {
+                    title:'我的订单页面',
+                    items:[
+                        '概述',
+                        '标题部分',
+                        '产品列表部分',
+                    ]
+                },
+                {
+                    title:'结算页面',
+                    items:[
+                        'item1',
+                        'item2',
+                    ]
+                },
+                {
+                    title:'其他页面',
+                    items:[
+                        'item1',
+                        'item2',
+                    ]
+                }
+            ],
+        };
+    }
+    render(){
+        return(
+            <div className="leftNav">
+                <div className="leftNav-con">
+                    <ul>
+                        {this.state.lists.map((item,i)=><li className={this.props.active === i?'active':''} key={i} onClick={(e)=>this.props.slideToggle(i,this.state.lists)}><span title={item.title}>{item.title}</span>{item.items.map((list,index)=><span title={list} className="items" key={index}>{list}</span>)}</li>)}
+                    </ul>
+                </div>
+            </div>
+        )
+    }
+}

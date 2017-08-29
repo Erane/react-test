@@ -1,0 +1,11 @@
+main{
+  padding-bottom: 40px;
+}
+.up{
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  font-size: 30px !important;
+  cursor: pointer;
+  color: #337AB7;
+}
