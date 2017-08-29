@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import './order_con.scss';
+import './order_con.css';
 import LeftNav from './leftNav/leftNav';
 import Order_lists from './order_lists/order_lists.jsx';
 

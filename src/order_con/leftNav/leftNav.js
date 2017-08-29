@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import './leftNav.scss';
+import './leftNav.css';
 export default class leftNav extends Component{
     constructor(props){
         super(props);

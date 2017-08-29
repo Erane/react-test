@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './order_lists.scss';
+import './order_lists.css';
 import Lists from './lists/lists';
 
 let lists = [

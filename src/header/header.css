@@ -1,0 +1,40 @@
+@charset "utf-8";
+.header {
+  position: relative;
+  padding: 30px 10px 0 30px;
+}
+.header a {
+  color: #333;
+  font-size: 36px;
+}
+.header a span {
+  color: #408CCB;
+  font-weight: bold;
+}
+.header .search {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 200px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  height: 30px;
+  overflow: hidden;
+}
+.header .search input {
+  width: 80%;
+  border: none;
+  height: 100%;
+  padding: 5px;
+  float: left;
+  font-size: 14px;
+}
+.header .search i {
+  border-left: 1px solid #CCCCCC;
+  float: left;
+  height: 100%;
+  width: 20%;
+  line-height: 30px;
+  text-align: center;
+  font-size: 26px;
+}

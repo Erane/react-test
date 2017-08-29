@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './reset.scss';
+import './reset.css';
 import './App.css';
 import Header from './header/hearder';
 import Nav from './nav/nav.js';

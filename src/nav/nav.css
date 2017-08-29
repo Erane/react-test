@@ -1,0 +1,26 @@
+
+.nav {
+  background: #337AB7;
+  margin-top: 10px;
+  padding: 15px 10px;
+}
+.nav a {
+  color: #fff;
+  -webkit-transition: color 0.1s;
+  transition: color 0.1s;
+}
+.nav a:hover, .nav a.active {
+  color: #F0AD78;
+}
+.nav .nav-lef {
+  float: left;
+}
+.nav .nav-lef a {
+  margin-right: 30px;
+}
+.nav .nav-right {
+  float: right;
+}
+.nav .nav-right a {
+  margin-left: 30px;
+}
